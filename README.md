@@ -9,13 +9,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot1.jpg)
-![](./screenshot2.jpg)
+![](./screenshot1.png)
+![](./screenshot2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/Luieitalian/testimonials-grid-section-main/tree/solution
+- [Live Site URL](https://luieitalian.github.io/testimonials-grid-section-main/)
 
 ### Built with
 
