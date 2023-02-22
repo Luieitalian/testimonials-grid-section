@@ -1,0 +1,115 @@
+html {
+    font-size: 14px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+img {
+    border-radius: 30px;
+    border: 3px solid hsl(263, 84%, 57%);
+    width: 25px;
+    height: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name-title-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.name {
+    opacity: 100%;
+    font-size: 1.1rem;
+}
+.title {
+    opacity: 50%;
+    font-size: 0.9rem;
+}
+.bigger-text {
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.smaller-text {
+    font-weight: 500;
+    opacity: 70%;
+    margin-top: 20px;
+}
+.left-top-side {
+    display: flex;
+    flex-direction: column;
+}
+.left-bottom-side {
+    display: flex;
+    flex-direction: column;
+    
+}
+.left-top-side .card-0 {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+}
+.left-top-side .card-1 {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+.left-bottom-side .card-0 {
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+}
+.left-bottom-side .card-0 .name-title-div {
+    color: hsl(219, 29%, 14%);
+}
+.right-side .card-0 .name-title-div {
+    color: hsl(219, 29%, 14%);
+}
+.right-side .card-0 {
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+}
+.left-bottom-side .card-1 {
+    background-color: hsl(219, 29%, 14%);
+    color:white;
+}
+.card-0 , .card-1 {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+@media (min-width: 576px){
+    .container {
+        flex-direction: row;
+        margin: 5% 15%;
+    }
+    .left-top-side {
+        flex-direction:row;
+    }
+    .left-top-side .card-1 {
+        margin-left: 20px;
+    }
+    .left-bottom-side {
+        flex-direction:row;
+    }
+    .left-bottom-side .card-1 {
+        margin-left: 20px;
+    }
+    .right-side .card-0 {
+        height: 100%;
+    }
+    .left-side {
+        flex-basis: 75%;
+    }
+    .right-side {
+        flex-basis: 25%;
+        margin-left: 20px;
+    }
+}
