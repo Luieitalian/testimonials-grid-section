@@ -1,0 +1,2 @@
+- add h1 element
++ add alt's to images

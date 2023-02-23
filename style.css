@@ -93,15 +93,17 @@ img {
     .container {
         flex-direction: row;
         margin: 5% 15%;
+        max-width: 1440px;
+        max-height: 900px;
     }
     .left-top-side {
-        flex-direction:row;
+        flex-direction: row;
     }
     .left-top-side .card-1 {
         margin-left: 20px;
     }
     .left-bottom-side {
-        flex-direction:row;
+        flex-direction: row;
     }
     .left-bottom-side .card-1 {
         margin-left: 20px;
