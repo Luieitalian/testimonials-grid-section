@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/Luieitalian/testimonials-grid-section-main/tree/solution
+- [Solution URL](https://github.com/Luieitalian/testimonials-grid-section-main/tree/solution)
 - [Live Site URL](https://luieitalian.github.io/testimonials-grid-section-main/)
 
 ### Built with
